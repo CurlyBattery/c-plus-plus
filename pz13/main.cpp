@@ -3,9 +3,9 @@
 
 #include <windows.h>
 
-LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) { // LRESULT = long int
-    if (uMsg == WM_DESTROY) {  // WM_DESTROY = окно закрывается
-        PostQuitMessage(0);  // выход из программы
+LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
+    if (uMsg == WM_DESTROY) {
+        PostQuitMessage(0);
         return 0;
     }
 
@@ -16,7 +16,7 @@ int main() {
     char className[] = "MyWindow";
     char windowTitle[] = "My Window";
 
-    WNDCLASS wc = {}; // WNDCLASS = структура с настройками окна
+    WNDCLASS wc = {};
     wc.lpfnWndProc = WindowProc;
     wc.hInstance = GetModuleHandle(0);
     wc.lpszClassName = className;
@@ -36,7 +36,7 @@ int main() {
 
     ShowWindow(hwnd, SW_SHOW);
 
-    MSG msg = {}; //    MSG = структура с инфой о сообщении
+    MSG msg = {};
     while (GetMessage(&msg, 0, 0, 0)) {
         TranslateMessage(&msg);
         DispatchMessage(&msg);
