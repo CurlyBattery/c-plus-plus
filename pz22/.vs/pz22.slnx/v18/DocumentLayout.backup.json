@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz22\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F77EDFB1-0AFE-4B23-961D-27713B341F55}|pz22\\pz22.csproj|c:\\users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz22\\pz22\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F77EDFB1-0AFE-4B23-961D-27713B341F55}|pz22\\pz22.csproj|solutionrelative:pz22\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77EDFB1-0AFE-4B23-961D-27713B341F55}|pz22\\pz22.csproj|c:\\users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz22\\pz22\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77EDFB1-0AFE-4B23-961D-27713B341F55}|pz22\\pz22.csproj|solutionrelative:pz22\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz22\\pz22\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "pz22\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz22\\pz22\\MainPage.xaml.cs",
+              "RelativeToolTip": "pz22\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T07:11:15.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz22\\pz22\\MainPage.xaml",
+              "RelativeDocumentMoniker": "pz22\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz22\\pz22\\MainPage.xaml",
+              "RelativeToolTip": "pz22\\MainPage.xaml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAIgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-07T06:49:45.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
