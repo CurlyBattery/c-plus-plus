@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+KL/pO+0Xw4=",
+  "dgSpecHash": "qGuuRZE4Wts=",
   "success": true,
-  "projectFilePath": "C:\\Users\\срет\\source\\repos\\App1\\App1\\App1.csproj",
+  "projectFilePath": "C:\\Users\\срет\\CLionProjects\\c-plus-plus\\App1\\App1\\App1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\срет\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\9.0.12\\microsoft.dotnet.ilcompiler.9.0.12.nupkg.sha512",
     "C:\\Users\\срет\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.12\\microsoft.net.illink.tasks.9.0.12.nupkg.sha512",

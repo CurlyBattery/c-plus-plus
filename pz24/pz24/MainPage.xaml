@@ -1,0 +1,84 @@
+﻿<Page
+    x:Class="pz24.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:pz24"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Style="{StaticResource ToolbarGridStyle}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Button
+                Grid.Column="0"
+                x:Name="btnBack"
+                Content="◀"
+                Click="btnBack_Click"
+                Style="{StaticResource NavigationButtonStyle}"/>
+
+            <Button 
+                Grid.Column="1"
+                x:Name="btnForward"
+                Click="btnForward_Click"
+                Content="▶"
+                Style="{StaticResource NavigationButtonStyle}"/>
+
+            <TextBox 
+                Grid.Column="2"
+                x:Name="txtUrl"
+                PlaceholderText="Введите URL адрес..."
+                Text="https://www.microsoft.com"
+                KeyDown="txtUrl_KeyDown"
+                Style="{StaticResource UrlTextBoxStyle}"/>
+
+            <Button 
+                Grid.Column="3"
+                Content="Перейти"
+                Click="btnGo_Click"
+                Style="{StaticResource GoButtonStyle}"/>
+
+            <DropDownButton 
+                Grid.Column="4"
+                x:Name="btnBookmarks"
+                Content="★ Закладки"
+                Style="{StaticResource BookmarksButtonStyle}">
+                <DropDownButton.Flyout>
+                    <MenuFlyout x:Name="bookmarksFloyout" Placement="Bottom">
+                        <MenuFlyoutItem 
+                            Text="Добавить в закладки"
+                            Icon="Add"
+                            Click="AddBookmark_Click"/>
+                        <MenuFlyoutSeparator/>
+                    </MenuFlyout>
+                </DropDownButton.Flyout>
+            </DropDownButton>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <WebView
+                x:Name="webView"
+                NavigationStarting="webView_NavigationStarting"
+                NavigationCompleted="webView_NavigationCompleted"
+                ContentLoading="webView_ContentLoading"/>
+
+            <ProgressBar 
+                x:Name="progressBar"
+                Visibility="Collapsed"
+                Style="{StaticResource LoadingProgressBarStyle}"/>
+        </Grid>
+    </Grid>
+</Page>

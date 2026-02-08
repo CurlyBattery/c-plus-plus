@@ -1786,11 +1786,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\срет\\source\\repos\\App1\\App1\\App1.csproj",
+      "projectUniqueName": "C:\\Users\\срет\\CLionProjects\\c-plus-plus\\App1\\App1\\App1.csproj",
       "projectName": "App1",
-      "projectPath": "C:\\Users\\срет\\source\\repos\\App1\\App1\\App1.csproj",
+      "projectPath": "C:\\Users\\срет\\CLionProjects\\c-plus-plus\\App1\\App1\\App1.csproj",
       "packagesPath": "C:\\Users\\срет\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\срет\\source\\repos\\App1\\App1\\obj\\",
+      "outputPath": "C:\\Users\\срет\\CLionProjects\\c-plus-plus\\App1\\App1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

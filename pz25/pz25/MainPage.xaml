@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="pz25.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="White">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
+
+            <TextBlock Text="Тестирование состояний приложения UWP"
+                       FontSize="24"
+                       FontWeight="Bold"
+                       TextAlignment="Center"/>
+
+            <TextBlock Text="Инструкция:"
+                       FontSize="18"
+                       Margin="0,20,0,10"/>
+
+            <TextBlock TextWrapping="Wrap" MaxWidth="600">
+                <Run Text="1. При запуске - увидите уведомление OnLaunched"/>
+                <LineBreak/>
+                <Run Text="2. Сверните приложение (Win+D) - через 5 сек приложение приостановится"/>
+                <LineBreak/>
+                <Run Text="3. Вернитесь в приложение - увидите OnResuming"/>
+                <LineBreak/>
+                <Run Text="4. Закройте приложение (Alt+F4)"/>
+                <LineBreak/>
+                <Run Text="5. Запустите снова - данные восстановятся"/>
+            </TextBlock>
+
+            <TextBlock x:Name="txtStatus"
+                       Text="Статус: Приложение работает"
+                       FontSize="16"
+                       Foreground="Green"
+                       Margin="0,30,0,0"/>
+
+        </StackPanel>
+    </Grid>
+</Page>
