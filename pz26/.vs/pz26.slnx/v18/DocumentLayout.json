@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz26\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBE992E-102B-4D0C-B2F0-74758077C976}|pz26\\pz26.csproj|c:\\users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz26\\pz26\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CBE992E-102B-4D0C-B2F0-74758077C976}|pz26\\pz26.csproj|solutionrelative:pz26\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz26\\pz26\\MainPage.xaml",
+              "RelativeDocumentMoniker": "pz26\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\\u0441\u0440\u0435\u0442\\source\\repos\\pz26\\pz26\\MainPage.xaml",
+              "RelativeToolTip": "pz26\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-08T18:03:58.853Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
